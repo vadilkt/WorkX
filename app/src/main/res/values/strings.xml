@@ -8,4 +8,7 @@
     <string name="description_2">Où que vous soyez</string>
     <string name="votre_adresse_mail">Votre adresse mail</string>
     <string name="mot_de_passe">Mot de passe</string>
+    <string name="je_m_inscris">Je m\'inscris</string>
+    <string name="j_ai_d_j_un_compte_je_me_connecte">J\'ai déjà un compte, je me connecte !</string>
+    <string name="vous_avez_d_j_un_compte_se_connecter">Vous avez déjà un compte? Se Connecter !</string>
 </resources>

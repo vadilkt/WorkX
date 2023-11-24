@@ -43,41 +43,50 @@
             android:textSize="14sp"
             android:alpha="1.0" />
 
-        <EditText
-            android:id="@+id/etEmailAddress"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:autofillHints="emailAddress"
-            app:layout_constraintBottom_toTopOf="@id/etPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/petit1"
-            android:ems="10"
-            android:hint="@string/votre_adresse_mail"
-            android:inputType="textEmailAddress"
-            android:minHeight="48dp"
-            android:textColorHint="#757575" />
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="emailAddress"
+                app:layout_constraintBottom_toTopOf="@id/etPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/petit1"
+                android:ems="10"
+                android:hint="@string/votre_adresse_mail"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/etPassword"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:autofillHints="password"
-            android:ems="10"
-            android:hint="@string/mot_de_passe"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
-            android:textColorHint="#757575"
-            app:layout_constraintBottom_toTopOf="@id/btnLogin"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etEmailAddress" />
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="password"
+                android:ems="10"
+                android:hint="@string/mot_de_passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#757575"
+                app:layout_constraintBottom_toTopOf="@id/btnLogin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btnLogin"
