@@ -1,6 +1,4 @@
 package com.example.workx
-
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -23,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         tvRedirectSignUp = findViewById(R.id.tvRedirectSignUp)
         btnLogin = findViewById(R.id.btnLogin)
-        etEmail = findViewById(R.id.btnLogin)
+        etEmail = findViewById(R.id.etEmailAddress)
         etPass = findViewById(R.id.etPassword)
 
         auth = FirebaseAuth.getInstance()
