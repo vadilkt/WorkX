@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">workX</string>
+    <string name="pas_de_compte_je_m_inscris">Pas de compte? Je m\'inscris</string>
+    <string name="login">Connexion</string>
+    <string name="connectez_vous">Connectez-vous</string>
+    <string name="workx">WorkX</string>
+    <string name="description_1">Trouve ce qu\'il vous faut</string>
+    <string name="description_2">Où que vous soyez</string>
+    <string name="votre_adresse_mail">Votre adresse mail</string>
+    <string name="mot_de_passe">Mot de passe</string>
 </resources>
