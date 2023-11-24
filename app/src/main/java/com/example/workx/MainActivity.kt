@@ -41,12 +41,21 @@ class MainActivity : AppCompatActivity() {
         val email = etEmail.text.toString()
         val pass = etPass.text.toString()
 
-        auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this){
-            if(it.isSuccessful){
-                Toast.makeText(this, "Connexion réussie", Toast.LENGTH_SHORT).show()
-            }else{
-                Toast.makeText(this, "Connexion échouée, veuillez réessayer", Toast.LENGTH_SHORT).show()
+        if (email.isNotEmpty() && pass.isNotEmpty()) {
+
+            auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this) {task ->
+                if (task.isSuccessful) {
+                    Toast.makeText(this, "Connexion réussie", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(
+                        this,
+                        "Connexion échouée, veuillez réessayer",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
             }
+        } else {
+            Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
         }
     }
 }
