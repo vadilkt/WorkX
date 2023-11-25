@@ -12,4 +12,10 @@
     <string name="j_ai_d_j_un_compte_je_me_connecte">J\'ai déjà un compte, je me connecte !</string>
     <string name="vous_avez_d_j_un_compte_se_connecter">Vous avez déjà un compte? Se Connecter !</string>
     <string name="pr_nom">Prénom</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="confirmation_du_mot_de_passe">Confirmation du mot de passe</string>
+    <string name="mot_de_passeR">Mot de passe</string>
+    <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
+    <string name="adresse_e_mail">Adresse e-mail</string>
+    <string name="nom">Nom</string>
 </resources>

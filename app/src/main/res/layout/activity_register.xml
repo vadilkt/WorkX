@@ -72,7 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:hint="Nom"
+                    android:hint="@string/nom"
                     android:inputType="textPersonName" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -86,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:hint="Adresse e-mail"
+                    android:hint="@string/adresse_e_mail"
                     android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -100,7 +100,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:hint="Numéro de téléphone"
+                    android:hint="@string/num_ro_de_t_l_phone"
                     android:inputType="phone" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -115,7 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:hint="Mot de passe"
+                    android:hint="@string/mot_de_passe"
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -130,7 +130,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
-                    android:hint="Confirmation du mot de passe"
+                    android:hint="@string/confirmation_du_mot_de_passe"
                     android:inputType="textPassword" />
 
 
@@ -142,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/button_margin"
                 android:background="@drawable/roundedbutton"
-                android:text="S'inscrire"
+                android:text="@string/s_inscrire"
                 android:textColor="#FFFFFF" />
 
             <TextView
