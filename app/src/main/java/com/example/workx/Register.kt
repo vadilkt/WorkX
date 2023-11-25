@@ -74,23 +74,27 @@ class Register : AppCompatActivity() {
                 signUpProgress.visibility = View.VISIBLE
                 mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener{task: Task<AuthResult> ->
-                        if(task.isSuccessful){
-                            val data = UserData(firstname,lastname, email, phonenumber)
-                            FirebaseDatabase.getInstance().getReference("UserData")
-                                .child(FirebaseAuth.getInstance().currentUser?.uid!!)
-                                .setValue(data)
-                                .addOnCompleteListener{task: Task<Void>->
-                                    signUpProgress.visibility = View.GONE
-                                    if(task.isSuccessful){
-                                        Toast.makeText(this, "Enregistrement Réussi !", Toast.LENGTH_SHORT).show()
-                                        val intent = Intent(this, Accueil::class.java)
-                                        startActivity(intent)
-                                        finish()
+                        try{
+                            if(task.isSuccessful){
+                                val data = UserData(firstname,lastname, email, phonenumber)
+                                FirebaseDatabase.getInstance().getReference("UserData")
+                                    .child(FirebaseAuth.getInstance().currentUser?.uid!!)
+                                    .setValue(data)
+                                    .addOnCompleteListener{task: Task<Void>->
+                                     signUpProgress.visibility = View.GONE
+                                        if(task.isSuccessful){
+                                            Toast.makeText(this, "Enregistrement Réussi !", Toast.LENGTH_SHORT).show()
+                                            val intent = Intent(this, Accueil::class.java)
+                                            startActivity(intent)
+                                            finish()
+                                        }
                                     }
-                                }
-                        } else{
-                            signUpProgress.visibility = View.GONE
-                            Toast.makeText(this, "Vérifier votre email ou votre mot de passe !", Toast.LENGTH_SHORT).show()
+                            } else{
+                                signUpProgress.visibility = View.GONE
+                                Toast.makeText(this, "Vérifier votre email ou votre mot de passe !", Toast.LENGTH_SHORT).show()
+                            }
+                        }catch(e : Exception){
+                            e.printStackTrace()
                         }
                     }
             } else{
