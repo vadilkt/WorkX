@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2299918998",
+    "project_id": "workx-184a9",
+    "storage_bucket": "workx-184a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2299918998:android:95baea7ed53ab47b54a0b7",
+        "android_client_info": {
+          "package_name": "com.example.workx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

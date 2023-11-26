@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="violet">#6c19ca</color>
+    <color name="violetA">#AA6c19ca</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#ffc727</color>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="card_cornerRadius">20dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="textInput">35dp</dimen>
+    <dimen name="text_input_layout_margin">5dp</dimen>
+    <dimen name="text_view_margin_bottom">15dp</dimen>
+    <string name="adresse_e_mail">Adresse e-mail</string>
+    <string name="app_name">workX</string>
+    <string name="confirmation_du_mot_de_passe">Confirmation du mot de passe</string>
+    <string name="connectez_vous">Connectez-vous</string>
+    <string name="description_1">Trouve ce qu\'il vous faut</string>
+    <string name="description_2">Où que vous soyez</string>
+    <string name="gcm_defaultSenderId" translatable="false">2299918998</string>
+    <string name="google_api_key" translatable="false">AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo</string>
+    <string name="google_app_id" translatable="false">1:2299918998:android:95baea7ed53ab47b54a0b7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo</string>
+    <string name="google_storage_bucket" translatable="false">workx-184a9.appspot.com</string>
+    <string name="j_ai_d_j_un_compte_je_me_connecte">J\'ai déjà un compte, je me connecte !</string>
+    <string name="je_m_inscris">Je m\'inscris</string>
+    <string name="login">Connexion</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="mot_de_passeR">Mot de passe</string>
+    <string name="nom">Nom</string>
+    <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
+    <string name="pas_de_compte_je_m_inscris">Pas de compte? Je m\'inscris</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="project_id" translatable="false">workx-184a9</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="votre_adresse_mail">Votre adresse mail</string>
+    <string name="vous_avez_d_j_un_compte_se_connecter">Vous avez déjà un compte? Se Connecter !</string>
+    <string name="workx">WorkX</string>
+    <style name="Base.Theme.WorkX" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/violet</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="Theme.WorkX" parent="Base.Theme.WorkX"/>
+</resources>

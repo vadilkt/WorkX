@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_cornerRadius">20dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="textInput">35dp</dimen>
+    <dimen name="text_input_layout_margin">5dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="text_view_margin_bottom">15dp</dimen>
+
+</resources>

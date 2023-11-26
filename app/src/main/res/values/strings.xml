@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">workX</string>
+    <string name="pas_de_compte_je_m_inscris">Pas de compte? Je m\'inscris</string>
+    <string name="login">Connexion</string>
+    <string name="connectez_vous">Connectez-vous</string>
+    <string name="workx">WorkX</string>
+    <string name="description_1">Trouve ce qu\'il vous faut</string>
+    <string name="description_2">Où que vous soyez</string>
+    <string name="votre_adresse_mail">Votre adresse mail</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="je_m_inscris">Je m\'inscris</string>
+    <string name="j_ai_d_j_un_compte_je_me_connecte">J\'ai déjà un compte, je me connecte !</string>
+    <string name="vous_avez_d_j_un_compte_se_connecter">Vous avez déjà un compte? Se Connecter !</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="confirmation_du_mot_de_passe">Confirmation du mot de passe</string>
+    <string name="mot_de_passeR">Mot de passe</string>
+    <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
+    <string name="adresse_e_mail">Adresse e-mail</string>
+    <string name="nom">Nom</string>
+</resources>
