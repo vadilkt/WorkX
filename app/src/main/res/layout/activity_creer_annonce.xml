@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
 
     <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
@@ -10,8 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:title="ANNONCE"
-        app:titleTextColor="@color/white" />
+        android:title="Titre de la Toolbar"
+        app:titleTextColor="#FFFFFF"
+        app:titleMarginStart="72dp"
+        app:titleMarginEnd="72dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
 
     <!-- Contenu de l'annonce -->
     <ScrollView
@@ -44,10 +48,10 @@
                 android:src="@drawable/annonce" />
 
             <TextView
-                android:layout_width="266dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10sp"
-                android:text="Creer Une Annonce"
+                android:layout_marginBottom="14dp"
+                android:text="@string/creer_annonce"
                 android:textStyle="bold" />
 
             <ProgressBar
@@ -83,21 +87,6 @@
                     android:hint="Description de l'annonce" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <!-- Select (service associé) -->
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Sélectionner un service"
-                    android:textColorHint="#555555"
-                    android:inputType="none"
-                    android:focusable="false"
-                    android:drawableRight="@drawable/downarrow" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Select (Catégories) -->
             <com.google.android.material.textfield.TextInputLayout
@@ -105,15 +94,15 @@
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-                <com.google.android.material.textfield.TextInputEditText
+                <Spinner
+                    android:id="@+id/spinnerCategorie"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Categories"
+                    android:layout_height="48dp"
+                    android:hint="Catégorie"
                     android:textColorHint="#555555"
-                    android:inputType="none"
-                    android:focusable="false"
-                    android:drawableRight="@drawable/downarrow" />
+                    style="@style/CustomSpinner" />
             </com.google.android.material.textfield.TextInputLayout>
+
 
 
             <!-- Select Date -->
@@ -137,7 +126,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextDate"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:layout_below="@id/dateLabel"
                     android:hint="JJ/MM/AAAA"
                     android:textColorHint="#555555"
@@ -179,11 +168,19 @@
 
             </RelativeLayout>
             <!-- Bouton Ajouter une annonce -->
-            <Button
-                android:id="@+id/buttonAjouterAnnonce"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ajouter une annonce" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonAjouterAnnonce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajouter une annonce"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="100dp" />
+            </RelativeLayout>
 
         </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -199,22 +196,35 @@
         <ImageButton
             android:id="@+id/buttonHome"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
             android:layout_alignParentStart="true"
-            android:src="@drawable/home" />
+            android:src="@drawable/baseline_home_24"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Description de l'acceuil"/>
 
         <ImageButton
             android:id="@+id/buttonAnnonce"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/home" />
+            android:src="@drawable/button_annonce"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Description de l'annonce" />
+
 
         <ImageButton
-            android:id="@+id/buttonServices"
+            android:id="@+id/buttonProfil"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
             android:layout_alignParentEnd="true"
-            android:src="@drawable/home" />
+            android:src="@drawable/profil"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Description du l'annonce"/>
+
     </RelativeLayout>
+
+
 </RelativeLayout>

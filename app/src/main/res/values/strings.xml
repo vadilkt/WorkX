@@ -18,4 +18,5 @@
     <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
     <string name="adresse_e_mail">Adresse e-mail</string>
     <string name="nom">Nom</string>
+    <string name="creer_annonce">Creer une Annonce</string>
 </resources>
