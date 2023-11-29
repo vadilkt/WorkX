@@ -1,102 +1,98 @@
 [
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "com.example.workx.app-merged_res-40:/layout_activity_main.xml.flat",
         "source": "com.example.workx.app-main-42:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_roundedbutton.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\roundedbutton.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\layout\\activity_register.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\layout_activity_accueil.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\layout\\activity_accueil.xml"
+        "merged": "com.example.workx.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.workx.app-main-42:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_signup.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\signup.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.workx.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.workx.app-main-42:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_login.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\login.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.workx.app-merged_res-40:/drawable_login.xml.flat",
+        "source": "com.example.workx.app-main-42:/drawable/login.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.workx.app-merged_res-40:/layout_activity_register.xml.flat",
+        "source": "com.example.workx.app-main-42:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.workx.app-merged_res-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.workx.app-main-42:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable-hdpi_bg_login.png.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable-hdpi\\bg_login.png"
+        "merged": "com.example.workx.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.workx.app-main-42:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.workx.app-merged_res-40:/drawable_logo.png.flat",
+        "source": "com.example.workx.app-main-42:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.workx.app-merged_res-40:/layout_activity_accueil.xml.flat",
+        "source": "com.example.workx.app-main-42:/layout/activity_accueil.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.workx.app-merged_res-40:/drawable_roundedbutton.xml.flat",
+        "source": "com.example.workx.app-main-42:/drawable/roundedbutton.xml"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\logo.png"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\layout\\activity_main.xml"
+        "merged": "com.example.workx.app-merged_res-40:/drawable-hdpi_bg_login.png.flat",
+        "source": "com.example.workx.app-main-42:/drawable-hdpi/bg_login.png"
+    },
+    {
+        "merged": "com.example.workx.app-merged_res-40:/drawable_signup.xml.flat",
+        "source": "com.example.workx.app-main-42:/drawable/signup.xml"
+    },
+    {
+        "merged": "com.example.workx.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.workx.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

@@ -46,6 +46,7 @@ string confirmation_du_mot_de_passe
 string connectez_vous
 string description_1
 string description_2
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
