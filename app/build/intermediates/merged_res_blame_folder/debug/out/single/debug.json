@@ -40,10 +40,6 @@
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.workx.app-merged_res-40:/layout_activity_register.xml.flat",
-        "source": "com.example.workx.app-main-42:/layout/activity_register.xml"
-    },
-    {
         "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-40:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
     },

@@ -57,6 +57,7 @@ class Register : AppCompatActivity() {
         etButton = findViewById(R.id.btnRegister)
         viewLogin = findViewById(R.id.tvLoginPrompt)
 
+        //Création des objets firebase
         mAuth = FirebaseAuth.getInstance()
         firebaseDatabase = FirebaseDatabase.getInstance()
         databaseRef = firebaseDatabase.getReference("UserData")
@@ -80,9 +81,10 @@ class Register : AppCompatActivity() {
                                 FirebaseDatabase.getInstance().getReference("UserData")
                                     .child(FirebaseAuth.getInstance().currentUser?.uid!!)
                                     .setValue(data)
-                                    .addOnCompleteListener{task: Task<Void>->
-                                     signUpProgress.visibility = View.GONE
-                                        if(task.isSuccessful){
+                                    .addOnCompleteListener{it->
+                                         signUpProgress.visibility = View.GONE
+
+                                        if(it.isSuccessful){
                                             Toast.makeText(this, "Enregistrement Réussi !", Toast.LENGTH_SHORT).show()
                                             val intent = Intent(this, Accueil::class.java)
                                             startActivity(intent)
