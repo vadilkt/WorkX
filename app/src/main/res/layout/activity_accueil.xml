@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,24 +11,71 @@
     android:padding="16sp"
     tools:context=".Accueil">
 
-    <TextView
-        android:id="@+id/txt_userEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="User Email"
-        android:textAlignment="center"
-        android:textColor="#2979FF"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+    <ScrollView
 
-    <Button
-        android:id="@+id/btn_userlogout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:background="#651FFF"
-        android:text="Logout"
-        android:textColor="#ffff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp">
+
+                    <EditText
+                        android:id="@+id/search_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:inputType="text"
+                        android:hint="@string/rechercher_une_annonce"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/searchBtn"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/search"
+                        android:contentDescription="search" />
+                </RelativeLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabCreateAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:src="@drawable/add_"
+                app:backgroundTint="@color/yellow"
+                app:borderWidth="0dp"
+                android:contentDescription="AddBtn" />
+        </LinearLayout>
+    </ScrollView>
+
+
 </LinearLayout>

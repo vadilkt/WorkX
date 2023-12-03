@@ -7,4 +7,5 @@ data class UserData (
     var lastName: String? = "",
     var email: String? = "",
     var phoneNumber: String? = ""
+
 )

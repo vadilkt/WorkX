@@ -18,4 +18,27 @@
     <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
     <string name="adresse_e_mail">Adresse e-mail</string>
     <string name="nom">Nom</string>
+    <string name="rechercher_une_annonce">Rechercher une annonce</string>
+    <string name="home">Home</string>
+
+    <string-array name="categories">
+        <item>Electronique</item>
+        <item>Vente</item>
+        <item>Electroménager</item>
+        <item>Education</item>
+        <item>Graphisme</item>
+        <item>Développement</item>
+        <item>Finance</item>
+    </string-array>
+    <string name="select_category">Sélectionner une catégorie</string>
+    <string name="description_de_l_annonce">Description de l\'annonce</string>
+    <string name="construction_de_cases_pour_chien">Construction de cases pour chien</string>
+    <string name="_50_000_fcfa">50.000 FCFA</string>
+    <string name="position">Position</string>
+    <string name="logbessou">Logbessou</string>
+    <string name="en_savoir_plus">en savoir plus</string>
+    <string name="image_de_l_annonce">Image de l\'annonce</string>
+    <string name="je_suis_un_menuisier_sp_cialis_dans_la_construction_de_maison_pour_votre_chien">Je suis un menuisier spécialisé dans la construction de maison pour votre chien!</string>
+
+
 </resources>

@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array categories
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2063,6 +2064,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2881,6 +2883,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen textInput
 dimen text_input_layout_margin
 dimen text_view_margin_bottom
@@ -2971,6 +2977,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_
+drawable add_img
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg_login
@@ -3008,6 +3016,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable home
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3028,8 +3037,10 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable location
 drawable login
 drawable logo
+drawable logo_action
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3103,7 +3114,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
 drawable roundedbutton
+drawable search
 drawable signup
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3156,6 +3169,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -3178,6 +3192,17 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id adDetails
+id adLocation
+id adName
+id adPhoneNumber
+id adPrice
+id ad_btn
+id ad_details
+id ad_image
+id ad_location
+id ad_name
+id ad_price
 id add
 id adjust_height
 id adjust_width
@@ -3213,12 +3238,14 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnCreateAd
 id btnLogin
 id btnRegister
-id btn_userlogout
+id btnSelectImage
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
 id center
@@ -3296,6 +3323,7 @@ id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etConfirmPassword
@@ -3308,6 +3336,7 @@ id etPhoneNumber
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabCreateAd
 id fade
 id fill
 id fill_horizontal
@@ -3327,6 +3356,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3369,6 +3399,7 @@ id line3
 id linear
 id listMode
 id list_item
+id location_icon
 id m3_side_sheet
 id marquee
 id masked
@@ -3395,6 +3426,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
+id menu_add
+id menu_home
+id menu_profile
 id message
 id middle
 id mini
@@ -3488,6 +3523,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id report_drawn
 id reverseSawtooth
 id right
@@ -3506,6 +3542,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBtn
 id search_badge
 id search_bar
 id search_button
@@ -3515,6 +3552,7 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
+id search_text
 id search_voice_btn
 id select_dialog_listview
 id selected
@@ -3537,6 +3575,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerCategory
 id spline
 id split_action_bar
 id spread
@@ -3553,6 +3592,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3607,7 +3647,6 @@ id transition_transform
 id triangle
 id tvLoginPrompt
 id tvRedirectSignUp
-id txt_userEmail
 id unchecked
 id uniform
 id unlabeled
@@ -3748,8 +3787,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_accueil
+layout activity_ad_detail
+layout activity_create_add
 layout activity_main
 layout activity_register
+layout ad_item
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3823,14 +3865,24 @@ layout mtrl_search_bar
 layout mtrl_search_view
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3906,6 +3958,7 @@ string connectez_vous
 string copy_toast_msg
 string description_1
 string description_2
+string description_de_l_annonce
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3922,6 +3975,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
+string home
 string icon_content_description
 string item_view_role_description
 string j_ai_d_j_un_compte_je_me_connecte
@@ -4039,11 +4093,13 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string pr_nom
 string project_id
+string rechercher_une_annonce
 string s_inscrire
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select_category
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
@@ -4139,6 +4195,7 @@ style Base_Theme_AppCompat_Light_Dialog_Alert
 style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
+style Base_Theme_Auth_WorkX
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog
 style Base_Theme_Material3_Dark_Dialog
@@ -4504,9 +4561,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4596,6 +4658,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
+style Theme_Auth_WorkX
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light

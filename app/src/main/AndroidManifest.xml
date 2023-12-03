@@ -13,18 +13,27 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WorkX"
         tools:targetApi="31">
         <activity
-            android:name=".Accueil"
+            android:name=".CreateAd"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Auth_WorkX"/>
+        <activity
+            android:name=".Ad_Detail"
             android:exported="false" />
+        <activity
+            android:name=".Accueil"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Auth_WorkX" />
         <activity
             android:name=".Register"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Base.Theme.WorkX" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Base.Theme.WorkX">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

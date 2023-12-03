@@ -61,7 +61,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
         }
     }
-
     override fun onStart() {
         super.onStart()
         if(FirebaseAuth.getInstance().currentUser!=null){
