@@ -20,13 +20,17 @@
     <dimen name="textInput">35dp</dimen>
     <dimen name="text_input_layout_margin">5dp</dimen>
     <dimen name="text_view_margin_bottom">15dp</dimen>
+    <string name="_50_000_fcfa">50.000 FCFA</string>
+    <string name="addbtn">AddBtn</string>
     <string name="adresse_e_mail">Adresse e-mail</string>
     <string name="app_name">workX</string>
     <string name="confirmation_du_mot_de_passe">Confirmation du mot de passe</string>
     <string name="connectez_vous">Connectez-vous</string>
+    <string name="construction_de_cases_pour_chien">Construction de cases pour chien</string>
     <string name="description_1">Trouve ce qu\'il vous faut</string>
     <string name="description_2">Où que vous soyez</string>
     <string name="description_de_l_annonce">Description de l\'annonce</string>
+    <string name="en_savoir_plus">en savoir plus</string>
     <string name="firebase_database_url" translatable="false">https://workx-184a9-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">2299918998</string>
     <string name="google_api_key" translatable="false">AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo</string>
@@ -34,18 +38,23 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo</string>
     <string name="google_storage_bucket" translatable="false">workx-184a9.appspot.com</string>
     <string name="home">Home</string>
+    <string name="image_de_l_annonce">Image de l\'annonce</string>
     <string name="j_ai_d_j_un_compte_je_me_connecte">J\'ai déjà un compte, je me connecte !</string>
     <string name="je_m_inscris">Je m\'inscris</string>
+    <string name="je_suis_un_menuisier_sp_cialis_dans_la_construction_de_maison_pour_votre_chien">Je suis un menuisier spécialisé dans la construction de maison pour votre chien!</string>
+    <string name="logbessou">Logbessou</string>
     <string name="login">Connexion</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="mot_de_passeR">Mot de passe</string>
     <string name="nom">Nom</string>
     <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
     <string name="pas_de_compte_je_m_inscris">Pas de compte? Je m\'inscris</string>
+    <string name="position">Position</string>
     <string name="pr_nom">Prénom</string>
     <string name="project_id" translatable="false">workx-184a9</string>
     <string name="rechercher_une_annonce">Rechercher une annonce</string>
     <string name="s_inscrire">S\'inscrire</string>
+    <string name="search">search</string>
     <string name="select_category">Sélectionner une catégorie</string>
     <string name="votre_adresse_mail">Votre adresse mail</string>
     <string name="vous_avez_d_j_un_compte_se_connecter">Vous avez déjà un compte? Se Connecter !</string>

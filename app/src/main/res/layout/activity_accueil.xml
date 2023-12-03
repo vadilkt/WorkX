@@ -1,81 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="16sp"
-    tools:context=".Accueil">
+    android:layout_width="match_parent">
 
-    <ScrollView
-
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="16sp">
+        android:padding="16dp">
 
-
-        <LinearLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
-            <com.google.android.material.textfield.TextInputLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_margin="16dp">
 
-                <RelativeLayout
+                <ImageButton
+                    android:id="@+id/btnOpenSidebar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/menu"
+                    android:onClick="openSidebar"
+                    android:layout_marginEnd="4dp"/>
+
+                <EditText
+                    android:id="@+id/search_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp">
+                    android:layout_toEndOf="@id/btnOpenSidebar"
+                    android:hint="@string/rechercher_une_annonce"
+                    android:inputType="text"
+                    android:textStyle="italic" />
 
-                    <EditText
-                        android:id="@+id/search_text"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="40dp"
-                        android:inputType="text"
-                        android:hint="@string/rechercher_une_annonce"
-                        android:textStyle="italic" />
+                <ImageButton
+                    android:id="@+id/searchBtn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="@string/search"
+                    android:background="@drawable/roundedbutton"
+                    android:src="@drawable/search" />
+            </RelativeLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-                    <ImageView
-                        android:id="@+id/searchBtn"
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginEnd="8dp"
-                        android:src="@drawable/search"
-                        android:contentDescription="search" />
-                </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"/>
 
-            </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCreateAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/addbtn"
+            android:src="@drawable/add_"
+            app:backgroundTint="@color/yellow"
+            app:elevation="6dp" />
 
+    </LinearLayout>
 
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"/>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:nestedScrollingEnabled="false"
-                android:overScrollMode="never" />
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/fabCreateAd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|end"
-                android:layout_margin="16dp"
-                android:src="@drawable/add_"
-                app:backgroundTint="@color/yellow"
-                app:borderWidth="0dp"
-                android:contentDescription="AddBtn" />
-        </LinearLayout>
-    </ScrollView>
-
-
-</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

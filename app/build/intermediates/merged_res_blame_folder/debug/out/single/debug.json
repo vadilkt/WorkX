@@ -84,10 +84,6 @@
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.workx.app-merged_res-43:/layout_ad_item.xml.flat",
-        "source": "com.example.workx.app-main-45:/layout/ad_item.xml"
-    },
-    {
         "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-43:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-45:\\layout\\activity_register.xml"
     },
@@ -110,6 +106,18 @@
     {
         "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.workx.app-merged_res-43:/menu_navigation_menu.xml.flat",
+        "source": "com.example.workx.app-main-45:/menu/navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-43:\\drawable_menu.xml.flat",
+        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-45:\\drawable\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-43:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-45:\\menu\\navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-43:\\drawable_login.xml.flat",

@@ -17,7 +17,8 @@
         <activity
             android:name=".CreateAd"
             android:exported="false"
-            android:theme="@style/Base.Theme.Auth_WorkX"/>
+            android:theme="@style/Base.Theme.Auth_WorkX"
+            android:parentActivityName=".Accueil"/>
         <activity
             android:name=".Ad_Detail"
             android:exported="false" />

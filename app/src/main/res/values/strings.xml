@@ -39,6 +39,8 @@
     <string name="en_savoir_plus">en savoir plus</string>
     <string name="image_de_l_annonce">Image de l\'annonce</string>
     <string name="je_suis_un_menuisier_sp_cialis_dans_la_construction_de_maison_pour_votre_chien">Je suis un menuisier spécialisé dans la construction de maison pour votre chien!</string>
+    <string name="addbtn">AddBtn</string>
+    <string name="search">search</string>
 
 
 </resources>

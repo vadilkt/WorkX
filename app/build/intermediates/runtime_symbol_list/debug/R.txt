@@ -3062,6 +3062,7 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f0700c8
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0700c9
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0700ca
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0700cb
+int drawable menu 0x7f070108
 int drawable mtrl_bottomsheet_drag_handle 0x7f0700cc
 int drawable mtrl_checkbox_button 0x7f0700cd
 int drawable mtrl_checkbox_button_checked_unchecked 0x7f0700ce
@@ -3239,6 +3240,7 @@ int id browser_actions_menu_items 0x7f08006e
 int id browser_actions_menu_view 0x7f08006f
 int id btnCreateAd 0x7f08021d
 int id btnLogin 0x7f080070
+int id btnOpenSidebar 0x7f080229
 int id btnRegister 0x7f080071
 int id btnSelectImage 0x7f08021e
 int id buttonPanel 0x7f080072
@@ -3310,6 +3312,7 @@ int id dragLeft 0x7f0800b3
 int id dragRight 0x7f0800b4
 int id dragStart 0x7f0800b5
 int id dragUp 0x7f0800b6
+int id drawerLayout 0x7f08022a
 int id dropdown_menu 0x7f0800b7
 int id easeIn 0x7f0800b8
 int id easeInOut 0x7f0800b9
@@ -3399,6 +3402,7 @@ int id linear 0x7f08010b
 int id listMode 0x7f08010c
 int id list_item 0x7f08010d
 int id location_icon 0x7f08010e
+int id logout 0x7f08022b
 int id m3_side_sheet 0x7f08010f
 int id marquee 0x7f080110
 int id masked 0x7f080111
@@ -3463,6 +3467,8 @@ int id mtrl_picker_text_input_range_start 0x7f080148
 int id mtrl_picker_title_text 0x7f080149
 int id mtrl_view_tag_bottom_padding 0x7f08014a
 int id multiply 0x7f08014b
+int id my_ads 0x7f08022c
+int id navigationView 0x7f080228
 int id navigation_bar_item_active_indicator_view 0x7f08014c
 int id navigation_bar_item_icon_container 0x7f08014d
 int id navigation_bar_item_icon_view 0x7f08014e
@@ -3882,10 +3888,12 @@ int layout select_dialog_multichoice_material 0x7f0b0078
 int layout select_dialog_singlechoice_material 0x7f0b0079
 int layout support_simple_spinner_dropdown_item 0x7f0b007a
 int menu bottom_menu 0x7f150000
+int menu navigation_menu 0x7f150001
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
 int raw firebase_common_keep 0x7f0f0000
+int string _50_000_fcfa 0x7f1000db
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
 int string abc_action_menu_overflow_description 0x7f100002
@@ -3913,6 +3921,7 @@ int string abc_searchview_description_voice 0x7f100017
 int string abc_shareactionprovider_share_with 0x7f100018
 int string abc_shareactionprovider_share_with_application 0x7f100019
 int string abc_toolbar_collapse_description 0x7f10001a
+int string addbtn 0x7f1000dc
 int string adresse_e_mail 0x7f10001b
 int string androidx_startup 0x7f10001c
 int string app_name 0x7f10001d
@@ -3954,10 +3963,12 @@ int string common_signin_button_text 0x7f100040
 int string common_signin_button_text_long 0x7f100041
 int string confirmation_du_mot_de_passe 0x7f100042
 int string connectez_vous 0x7f100043
+int string construction_de_cases_pour_chien 0x7f1000dd
 int string copy_toast_msg 0x7f100044
 int string description_1 0x7f100045
 int string description_2 0x7f100046
 int string description_de_l_annonce 0x7f1000d7
+int string en_savoir_plus 0x7f1000de
 int string error_a11y_label 0x7f100047
 int string error_icon_content_description 0x7f100048
 int string exposed_dropdown_menu_content_description 0x7f100049
@@ -3976,9 +3987,12 @@ int string google_storage_bucket 0x7f100055
 int string hide_bottom_view_on_scroll_behavior 0x7f100056
 int string home 0x7f1000d8
 int string icon_content_description 0x7f100057
+int string image_de_l_annonce 0x7f1000df
 int string item_view_role_description 0x7f100058
 int string j_ai_d_j_un_compte_je_me_connecte 0x7f100059
 int string je_m_inscris 0x7f10005a
+int string je_suis_un_menuisier_sp_cialis_dans_la_construction_de_maison_pour_votre_chien 0x7f1000e0
+int string logbessou 0x7f1000e1
 int string login 0x7f10005b
 int string m3_exceed_max_badge_text_suffix 0x7f10005c
 int string m3_ref_typeface_brand_medium 0x7f10005d
@@ -4090,10 +4104,12 @@ int string path_password_eye 0x7f1000c6
 int string path_password_eye_mask_strike_through 0x7f1000c7
 int string path_password_eye_mask_visible 0x7f1000c8
 int string path_password_strike_through 0x7f1000c9
+int string position 0x7f1000e2
 int string pr_nom 0x7f1000ca
 int string project_id 0x7f1000cb
 int string rechercher_une_annonce 0x7f1000d9
 int string s_inscrire 0x7f1000cc
+int string search 0x7f1000e3
 int string search_menu_title 0x7f1000cd
 int string searchbar_scrolling_view_behavior 0x7f1000ce
 int string searchview_clear_text_content_description 0x7f1000cf

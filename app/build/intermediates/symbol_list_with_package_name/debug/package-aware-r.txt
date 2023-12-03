@@ -3063,6 +3063,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3240,6 +3241,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnCreateAd
 id btnLogin
+id btnOpenSidebar
 id btnRegister
 id btnSelectImage
 id buttonPanel
@@ -3311,6 +3313,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3400,6 +3403,7 @@ id linear
 id listMode
 id list_item
 id location_icon
+id logout
 id m3_side_sheet
 id marquee
 id masked
@@ -3464,6 +3468,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_ads
+id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3883,10 +3889,12 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_menu
+menu navigation_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+string _50_000_fcfa
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3914,6 +3922,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string addbtn
 string adresse_e_mail
 string androidx_startup
 string app_name
@@ -3955,10 +3964,12 @@ string common_signin_button_text
 string common_signin_button_text_long
 string confirmation_du_mot_de_passe
 string connectez_vous
+string construction_de_cases_pour_chien
 string copy_toast_msg
 string description_1
 string description_2
 string description_de_l_annonce
+string en_savoir_plus
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3977,9 +3988,12 @@ string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
+string image_de_l_annonce
 string item_view_role_description
 string j_ai_d_j_un_compte_je_me_connecte
 string je_m_inscris
+string je_suis_un_menuisier_sp_cialis_dans_la_construction_de_maison_pour_votre_chien
+string logbessou
 string login
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -4091,10 +4105,12 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string position
 string pr_nom
 string project_id
 string rechercher_une_annonce
 string s_inscrire
+string search
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
