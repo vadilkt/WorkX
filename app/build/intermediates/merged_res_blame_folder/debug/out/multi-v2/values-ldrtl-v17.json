@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.workx.app-mergeDebugResources-41:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.workx.app-mergeDebugResources-46:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\03a31470cb896817e0ed96b097db61c0\\transformed\\material-1.10.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",

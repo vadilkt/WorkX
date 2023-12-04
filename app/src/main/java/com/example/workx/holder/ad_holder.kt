@@ -31,22 +31,22 @@ class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
                 .into(imageView)
         }else{
             imageView.setImageResource(R.drawable.add_img)
-            Log.d("AdViewHolder", "Ad Name: ${ad.nameAd}")
-            Log.d("AdViewHolder", "Ad Price: ${ad.priceAd}")
-            Log.d("AdViewHolder", "Ad Location: ${ad.locationAd}")
-            Log.d("AdViewHolder", "Ad Detail: ${ad.detailAd}")
         }
         adName.text = ad.nameAd?:""
         adPrice.text = ad.priceAd?:""
         adLocation.text = ad.locationAd?:""
         adDetail.text = ad.detailAd?:""
 
+
         adBtn.setOnClickListener {
             val intent = Intent(context, Ad_Detail::class.java)
             intent.putExtra("adId", ad.nameAd)
 
             context.startActivity(intent)
-
+            Log.d("AdViewHolder", "Ad Name: ${ad.nameAd}")
+            Log.d("AdViewHolder", "Ad Price: ${ad.priceAd}")
+            Log.d("AdViewHolder", "Ad Location: ${ad.locationAd}")
+            Log.d("AdViewHolder", "Ad Detail: ${ad.detailAd}")
         }
     }
 

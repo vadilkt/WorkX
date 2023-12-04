@@ -13,6 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Auth_WorkX"
         tools:targetApi="31">
         <activity
             android:name=".CreateAd"
@@ -21,7 +22,9 @@
             android:parentActivityName=".Accueil"/>
         <activity
             android:name=".Ad_Detail"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Base.Theme.Auth_WorkX"
+            android:parentActivityName=".Accueil"/>
         <activity
             android:name=".Accueil"
             android:exported="false"

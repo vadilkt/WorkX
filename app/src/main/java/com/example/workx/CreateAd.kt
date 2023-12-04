@@ -2,6 +2,7 @@ package com.example.workx
 
 import android.app.Activity
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -20,7 +21,6 @@ class CreateAd : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var database : FirebaseDatabase
-    private lateinit var storage : FirebaseStorage
     private lateinit var btnSelectedImage: Button
     private lateinit var btnCreateAd: Button
     private lateinit var adName : EditText
@@ -77,6 +77,8 @@ class CreateAd : AppCompatActivity() {
 
     }
 
+
+
     private fun createdAd() {
         val adName = adName.text.toString().trim()
         val adPrice = adPrice.text.toString().trim()
@@ -89,11 +91,15 @@ class CreateAd : AppCompatActivity() {
             Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
             return
         }
-        val ad = Ad(adName,adPrice, adPhoneNumber, adDetail, selectedCategory, adLocation, images)
-
         val userId = auth.currentUser?.uid
+
         if(userId!=null){
-            val adRef = database.getReference("Ad").child(userId).push()
+            val adRef = database.getReference("Ad").push()
+            val adId = adRef.key
+            val ad = Ad(adId, userId,adName,adPrice, adPhoneNumber, adDetail, selectedCategory, adLocation, images)
+
+
+
             adRef.setValue(ad)
             Toast.makeText(this, "Votre annonce a été enregistrée avec succès !", Toast.LENGTH_SHORT).show()
 

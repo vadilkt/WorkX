@@ -8,27 +8,30 @@ import com.example.workx.R
 import com.example.workx.holder.AdViewHolder
 import com.example.workx.model.Ad
 
-class Ad_adapter (private val context: Context):RecyclerView.Adapter<AdViewHolder>(){
+class AdAdapter (private val context: Context):RecyclerView.Adapter<AdViewHolder>(){
 
-    private var ads: List<Ad> = emptyList()
+    private var adsList:MutableList<Ad> = mutableListOf()
 
-    fun setAds(newAds: List<Ad>){
-        ads = newAds
+    fun setAds(newAds: List<Ad>?){
+        adsList.clear()
+        newAds?.let {
+            adsList.addAll(it)
+        }
         notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.ad_item, parent, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.ad_item, parent, false)
         return AdViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: AdViewHolder, position: Int) {
-    val ad = ads[position]
+    val ad = adsList[position]
     holder.bind(ad)
     }
 
     override fun getItemCount(): Int {
-        return ads.size
+        return adsList.size
     }
 
 }

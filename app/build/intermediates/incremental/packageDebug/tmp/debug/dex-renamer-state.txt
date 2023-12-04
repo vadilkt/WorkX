@@ -1,4 +1,4 @@
-#Sun Dec 03 14:45:01 CET 2023
+#Tue Dec 05 00:37:19 CET 2023
 base.0=C\:\\Users\\kweka\\AndroidStudioProjects\\workX\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\kweka\\AndroidStudioProjects\\workX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\kweka\\AndroidStudioProjects\\workX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

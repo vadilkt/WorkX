@@ -2981,6 +2981,7 @@ drawable add_
 drawable add_img
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_logout_24
 drawable bg_login
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3115,6 +3116,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable personnal
 drawable profile
 drawable roundedbutton
 drawable search
@@ -3122,6 +3124,8 @@ drawable signup
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable violetactionbg
+drawable whitebg
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3216,6 +3220,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id app_bar_search
 id arc
 id asConfigured
 id async
@@ -3230,6 +3235,8 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomAppBar
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3240,8 +3247,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnCreateAd
+id btnDelete
 id btnLogin
-id btnOpenSidebar
 id btnRegister
 id btnSelectImage
 id buttonPanel
@@ -3313,7 +3320,6 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
-id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3339,7 +3345,7 @@ id etPhoneNumber
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fabCreateAd
+id fabAddBtn
 id fade
 id fill
 id fill_horizontal
@@ -3355,6 +3361,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frameLayout
 id frost
 id fullscreen_header
 id ghost_view
@@ -3403,7 +3410,6 @@ id linear
 id listMode
 id list_item
 id location_icon
-id logout
 id m3_side_sheet
 id marquee
 id masked
@@ -3433,7 +3439,9 @@ id matrix
 id media_actions
 id menu_add
 id menu_home
+id menu_logout
 id menu_profile
+id menu_search
 id message
 id middle
 id mini
@@ -3468,8 +3476,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id my_ads
-id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3548,7 +3554,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id searchBtn
 id search_badge
 id search_bar
 id search_button
@@ -3558,7 +3563,6 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
-id search_text
 id search_voice_btn
 id select_dialog_listview
 id selected
@@ -3816,6 +3820,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_all_ads
+layout fragment_my_ads
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog
@@ -3889,7 +3895,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_menu
-menu navigation_menu
+menu menusearch
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3985,6 +3991,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description

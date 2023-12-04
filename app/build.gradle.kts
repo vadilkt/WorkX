@@ -38,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.fragment:fragment-ktx:1.3.6")
     implementation ("com.firebaseui:firebase-ui-storage:8.0.0")
     implementation ("com.firebaseui:firebase-ui-database:8.0.0")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
