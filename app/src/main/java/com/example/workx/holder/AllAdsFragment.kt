@@ -1,6 +1,8 @@
 package com.example.workx.holder
 
 import android.content.Intent
+import android.icu.text.NumberFormat
+import android.icu.util.Currency
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -21,6 +23,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import java.util.Locale
 
 class AllAdsFragment : Fragment() {
     private lateinit var database: FirebaseDatabase
@@ -68,12 +71,13 @@ class AllAdsFragment : Fragment() {
                         val adAttributes = adSnapshot.getValue(Ad::class.java)
 
                         adAttributes?.let {
+                            val formattedPrice = displayPrice(it.priceAd)
                             allAdsList.add(
                                 Ad(
                                     adId,
                                     it.userId,
                                     it.nameAd,
-                                    it.priceAd,
+                                    formattedPrice,
                                     it.telAd,
                                     it.detailAd,
                                     it.categoryAd,
@@ -97,7 +101,20 @@ class AllAdsFragment : Fragment() {
         })
     }
 
+    private fun displayPrice(price: String?): String? {
+        val priceValue = price?.toDoubleOrNull()
 
+        return if(priceValue!=null){
+            val locale = Locale("fr","CM")
+            val currency = Currency.getInstance(locale)
+            val currencyFormat = NumberFormat.getCurrencyInstance(locale)
+            currencyFormat.currency = currency
+
+            currencyFormat.format(priceValue)
+        }else{
+            price
+        }
+    }
 
 
 }
