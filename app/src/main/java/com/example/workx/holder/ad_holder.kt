@@ -21,6 +21,7 @@ class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
     val adLocation= itemView.findViewById<TextView>(R.id.ad_location)
     val adBtn = itemView.findViewById<Button>(R.id.ad_btn)
     val imageView = itemView.findViewById<ImageView>(R.id.ad_image)
+    val adDeleteBtn = itemView.findViewById<Button>(R.id.btnDelete)
 
     fun bind(ad: Ad){
         val imageUrl =  ad.imageAd?.firstOrNull()
@@ -32,12 +33,15 @@ class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
         }else{
             imageView.setImageResource(R.drawable.add_img)
         }
+
         adName.text = ad.nameAd?:""
         adPrice.text = ad.priceAd?:""
         adLocation.text = ad.locationAd?:""
         adDetail.text = ad.detailAd?:""
 
+        adDeleteBtn.setOnClickListener {
 
+        }
         adBtn.setOnClickListener {
             val intent = Intent(context, Ad_Detail::class.java)
             intent.putExtra("adId", ad.nameAd)

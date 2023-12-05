@@ -124,10 +124,6 @@
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-50:\\drawable\\profile.xml"
     },
     {
-        "merged": "com.example.workx.app-merged_res-48:/layout_ad_item.xml.flat",
-        "source": "com.example.workx.app-main-50:/layout/ad_item.xml"
-    },
-    {
         "merged": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-merged_res-48:\\drawable_location.xml.flat",
         "source": "C:\\Users\\kweka\\.gradle\\daemon\\8.0\\com.example.workx.app-main-50:\\drawable\\location.xml"
     },

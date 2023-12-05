@@ -8,505 +8,512 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:22-76
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
-14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
-14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
-15    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
-15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
-16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
-16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
-17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-17-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:5-77
-17-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:22-74
-18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
-18-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:22-79
-19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-19-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
-19-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
-20
-21    <permission
-21-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-22        android:name="com.example.workx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-22-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-23        android:protectionLevel="signature" />
-23-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-24
-25    <uses-permission android:name="com.example.workx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-25-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-25-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-26
-27    <application
-27-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:8:5-47:19
-28        android:allowBackup="true"
-28-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:9-35
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-30        android:dataExtractionRules="@xml/data_extraction_rules"
-30-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:10:9-65
-31        android:debuggable="true"
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:5-77
+18-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:22-74
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.workx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.workx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-48:19
+29        android:allowBackup="true"
+29-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:10:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:9-65
 32        android:extractNativeLibs="false"
 33        android:fullBackupContent="@xml/backup_rules"
-33-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:9-54
+33-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:12:9-54
 34        android:icon="@drawable/logo"
-34-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:12:9-38
+34-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:13:9-38
 35        android:label="@string/app_name"
-35-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:13:9-41
+35-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:14:9-41
 36        android:roundIcon="@drawable/logo"
-36-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:14:9-43
+36-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:15:9-43
 37        android:supportsRtl="true"
-37-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:15:9-35
+37-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:16:9-35
 38        android:testOnly="true"
 39        android:theme="@style/Base.Theme.Auth_WorkX" >
-39-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:16:9-53
+39-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:17:9-53
 40        <activity
-40-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:18:9-22:52
+40-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:9-23:52
 41            android:name="com.example.workx.CreateAd"
-41-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:13-37
+41-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:20:13-37
 42            android:exported="false"
-42-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:20:13-37
+42-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:21:13-37
 43            android:parentActivityName="com.example.workx.Accueil"
-43-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-50
+43-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:13-50
 44            android:theme="@style/Base.Theme.Auth_WorkX" />
-44-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:21:13-57
+44-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-57
 45        <activity
-45-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:9-27:52
+45-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:9-28:52
 46            android:name="com.example.workx.Ad_Detail"
-46-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:13-38
+46-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:13-38
 47            android:exported="false"
-47-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:13-37
+47-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-37
 48            android:parentActivityName="com.example.workx.Accueil"
-48-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:13-50
+48-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:13-50
 49            android:theme="@style/Base.Theme.Auth_WorkX" />
-49-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-57
+49-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:13-57
 50        <activity
-50-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:9-31:60
+50-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:9-32:60
 51            android:name="com.example.workx.Accueil"
-51-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:13-36
+51-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:13-36
 52            android:exported="false"
-52-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:13-37
+52-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-37
 53            android:theme="@style/Base.Theme.Auth_WorkX" />
-53-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-57
+53-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:13-57
 54        <activity
-54-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:9-36:55
+54-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:9-37:55
 55            android:name="com.example.workx.Register"
-55-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:13-37
+55-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-37
 56            android:exported="false"
-56-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-37
+56-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:13-37
 57            android:parentActivityName="com.example.workx.MainActivity"
-57-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:13-55
+57-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-55
 58            android:theme="@style/Base.Theme.WorkX" />
-58-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-52
+58-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:13-52
 59        <activity
-59-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:9-46:20
+59-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:9-47:20
 60            android:name="com.example.workx.MainActivity"
-60-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:13-41
+60-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-41
 61            android:exported="true"
-61-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-36
+61-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:40:13-36
 62            android:theme="@style/Base.Theme.WorkX" >
-62-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:40:13-52
+62-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:13-52
 63            <intent-filter>
-63-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:13-45:29
+63-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:13-46:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:17-69
-64-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:25-66
+64-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:17-69
+64-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:44:17-77
-66-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:44:27-74
+66-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:17-77
+66-->C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:27-74
 67            </intent-filter>
 68        </activity>
-69        <activity
-69-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
-70            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-70-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
-71            android:excludeFromRecents="true"
-71-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
-72            android:exported="true"
-72-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
-73            android:launchMode="singleTask"
-73-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
-74            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-74-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
-75            <intent-filter>
-75-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
-76                <action android:name="android.intent.action.VIEW" />
-76-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
-76-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
-77
-78                <category android:name="android.intent.category.DEFAULT" />
-78-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
-78-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
-79                <category android:name="android.intent.category.BROWSABLE" />
-79-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
-79-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
-80
-81                <data
-81-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
-82                    android:host="firebase.auth"
-82-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
-83                    android:path="/"
-83-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
-84                    android:scheme="genericidp" />
-84-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
-85            </intent-filter>
-86        </activity>
-87        <activity
-87-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
-88            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-88-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
-89            android:excludeFromRecents="true"
-89-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
-90            android:exported="true"
-90-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
-91            android:launchMode="singleTask"
-91-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
-92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-92-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
-93            <intent-filter>
-93-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
-94                <action android:name="android.intent.action.VIEW" />
-94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
-94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
-95
-96                <category android:name="android.intent.category.DEFAULT" />
-96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
-96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
-97                <category android:name="android.intent.category.BROWSABLE" />
-97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
-97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
-98
-99                <data
-99-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
-100                    android:host="firebase.auth"
-100-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
-101                    android:path="/"
-101-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
-102                    android:scheme="recaptcha" />
-102-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
-103            </intent-filter>
-104        </activity>
-105
-106        <service
-106-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
-107            android:name="com.google.firebase.components.ComponentDiscoveryService"
-107-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
-108            android:directBootAware="true"
-108-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
-109            android:exported="false" >
-109-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
-110            <meta-data
-110-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
-111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-111-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
-112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
-113            <meta-data
-113-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
-114                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
-114-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
-115                android:value="com.google.firebase.components.ComponentRegistrar" />
-115-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
-116            <meta-data
-116-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
-117                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-117-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
-118                android:value="com.google.firebase.components.ComponentRegistrar" />
-118-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
-119            <meta-data
-119-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
-120                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-120-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
-122            <meta-data
-122-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
-123                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-123-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
-124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
-125            <meta-data
-125-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
-126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-126-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
-128            <meta-data
-128-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
-129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-129-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
-130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
-131            <meta-data
-131-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
-132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-132-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
-133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
-134            <meta-data
-134-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
-135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-135-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
-136                android:value="com.google.firebase.components.ComponentRegistrar" />
-136-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
-137            <meta-data
-137-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
-138                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-138-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
-139                android:value="com.google.firebase.components.ComponentRegistrar" />
-139-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
-140            <meta-data
-140-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
-141                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-141-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
-142                android:value="com.google.firebase.components.ComponentRegistrar" />
-142-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
-143            <meta-data
-143-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
-144                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-144-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
-145                android:value="com.google.firebase.components.ComponentRegistrar" />
-145-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
-146            <meta-data
-146-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-147                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-147-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
-148                android:value="com.google.firebase.components.ComponentRegistrar" />
-148-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
-149            <meta-data
-149-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-150                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-150-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
-151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-152            <meta-data
-152-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-153                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-153-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
-154                android:value="com.google.firebase.components.ComponentRegistrar" />
-154-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-155        </service>
-156
-157        <property
-157-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
-158            android:name="android.adservices.AD_SERVICES_CONFIG"
-158-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
-159            android:resource="@xml/ga_ad_services_config" />
-159-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
-160
-161        <receiver
-161-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
-162            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-162-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
-163            android:exported="true"
-163-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
-164            android:permission="com.google.android.c2dm.permission.SEND" >
-164-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
-165            <intent-filter>
-165-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:33:13-35:29
-166                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-166-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:17-81
-166-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:25-78
-167            </intent-filter>
-168
-169            <meta-data
-169-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
-170                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-170-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
-171                android:value="true" />
-171-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
-172        </receiver>
-173        <!--
-174             FirebaseMessagingService performs security checks at runtime,
-175             but set to not exported to explicitly avoid allowing another app to call it.
-176        -->
-177        <service
-177-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
-178            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-178-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
-179            android:directBootAware="true"
-179-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
-180            android:exported="false" >
-180-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
-181            <intent-filter android:priority="-500" >
-181-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:13-52:29
-181-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:28-51
-182                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-182-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:17-78
-182-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:25-75
-183            </intent-filter>
-184        </service>
-185
-186        <receiver
-186-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
-187            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-187-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
-188            android:enabled="true"
-188-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
-189            android:exported="false" >
-189-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
-190        </receiver>
-191
-192        <service
-192-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
-193            android:name="com.google.android.gms.measurement.AppMeasurementService"
-193-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
-194            android:enabled="true"
-194-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
-195            android:exported="false" />
-195-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
-196        <service
-196-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
-197            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-197-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
-198            android:enabled="true"
-198-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
-199            android:exported="false"
-199-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
-200            android:permission="android.permission.BIND_JOB_SERVICE" />
-200-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
-201
-202        <uses-library
-202-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-203            android:name="android.ext.adservices"
-203-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-204            android:required="false" />
-204-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-205
-206        <provider
-206-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-207            android:name="com.google.firebase.provider.FirebaseInitProvider"
-207-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-208            android:authorities="com.example.workx.firebaseinitprovider"
-208-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-209            android:directBootAware="true"
-209-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-210            android:exported="false"
-210-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-211            android:initOrder="100" />
-211-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-212
-213        <activity
-213-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-214-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+69
+70        <profileable
+71            android:enabled="true"
+72            android:shell="true" />
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+81-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+83-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+84-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+99-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+101-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+102-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+108            </intent-filter>
+109        </activity>
+110
+111        <service
+111-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+112            android:name="com.google.firebase.components.ComponentDiscoveryService"
+112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
+113            android:directBootAware="true"
+113-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+114            android:exported="false" >
+114-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+115            <meta-data
+115-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+116                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+116-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+119                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+119-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+122                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+122-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+125                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+125-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+128                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+128-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+130            <meta-data
+130-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+131                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+131-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
+134                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+134-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
+137                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+137-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+140-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
+146                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+146-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
+149                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+149-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+152                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+152-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+155                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+155-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+158                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+158-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+160        </service>
+161
+162        <property
+162-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+163            android:name="android.adservices.AD_SERVICES_CONFIG"
+163-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+164            android:resource="@xml/ga_ad_services_config" />
+164-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+165
+166        <receiver
+166-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
+167            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+167-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
+168            android:exported="true"
+168-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
+170            <intent-filter>
+170-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:33:13-35:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:17-81
+171-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:25-78
+172            </intent-filter>
+173
+174            <meta-data
+174-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
+175                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+175-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
+176                android:value="true" />
+176-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
+177        </receiver>
+178        <!--
+179             FirebaseMessagingService performs security checks at runtime,
+180             but set to not exported to explicitly avoid allowing another app to call it.
+181        -->
+182        <service
+182-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
+183            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+183-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
+185            android:exported="false" >
+185-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
+186            <intent-filter android:priority="-500" >
+186-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:13-52:29
+186-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:28-51
+187                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+187-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:17-78
+187-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:25-75
+188            </intent-filter>
+189        </service>
+190
+191        <receiver
+191-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+192            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+192-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+194            android:exported="false" >
+194-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+195        </receiver>
+196
+197        <service
+197-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+198            android:name="com.google.android.gms.measurement.AppMeasurementService"
+198-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+200            android:exported="false" />
+200-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+201        <service
+201-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+202            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+202-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+206
+207        <uses-library
+207-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+208            android:name="android.ext.adservices"
+208-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+209            android:required="false" />
+209-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+210
+211        <provider
+211-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+212            android:name="com.google.firebase.provider.FirebaseInitProvider"
+212-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+213            android:authorities="com.example.workx.firebaseinitprovider"
+213-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
 215            android:exported="false"
-215-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-216-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+215-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+216            android:initOrder="100" />
+216-->[com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
 217
-218        <meta-data
-218-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-219            android:name="com.google.android.gms.version"
-219-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-220            android:value="@integer/google_play_services_version" />
-220-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-221
-222        <provider
-222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-223            android:name="androidx.startup.InitializationProvider"
-223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-224            android:authorities="com.example.workx.androidx-startup"
-224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-225            android:exported="false" >
-225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-226            <meta-data
-226-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-227                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-228                android:value="androidx.startup" />
-228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-229            <meta-data
-229-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-230                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-230-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-231                android:value="androidx.startup" />
-231-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-232            <meta-data
-232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-233                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-234                android:value="androidx.startup" />
-234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-235        </provider>
-236
-237        <service
-237-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-238            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-238-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-239            android:exported="false" >
-239-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-240            <meta-data
-240-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-241                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-241-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-242                android:value="cct" />
-242-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-243        </service>
-244        <service
-244-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-245            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-245-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-246            android:exported="false"
-246-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-247            android:permission="android.permission.BIND_JOB_SERVICE" >
-247-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+218        <activity
+218-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+219            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+219-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+226
+227        <provider
+227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+228            android:name="androidx.startup.InitializationProvider"
+228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+229            android:authorities="com.example.workx.androidx-startup"
+229-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+230            android:exported="false" >
+230-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+231            <meta-data
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+233                android:value="androidx.startup" />
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+236                android:value="androidx.startup" />
+236-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+237            <meta-data
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+238                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+239                android:value="androidx.startup" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+240        </provider>
+241
+242        <service
+242-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+243            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+243-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+244            android:exported="false" >
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+245            <meta-data
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+246                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+247                android:value="cct" />
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
 248        </service>
-249
-250        <receiver
-250-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-251            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-251-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-252            android:exported="false" />
-252-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-253        <receiver
-253-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-254            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-254-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-255            android:directBootAware="false"
-255-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-256            android:enabled="true"
-256-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-257            android:exported="true"
-257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-258            android:permission="android.permission.DUMP" >
-258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-259            <intent-filter>
-259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-260                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-261            </intent-filter>
-262            <intent-filter>
-262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-263                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-264            </intent-filter>
-265            <intent-filter>
-265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-266                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-267            </intent-filter>
-268            <intent-filter>
-268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-269                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-270            </intent-filter>
-271        </receiver>
-272    </application>
-273
-274</manifest>
+249        <service
+249-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+250-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+251            android:exported="false"
+251-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+252            android:permission="android.permission.BIND_JOB_SERVICE" >
+252-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+253        </service>
+254
+255        <receiver
+255-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+256            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+256-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+257            android:exported="false" />
+257-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+258        <receiver
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+259            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+260            android:directBootAware="false"
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+261            android:enabled="true"
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+262            android:exported="true"
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+263            android:permission="android.permission.DUMP" >
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+264            <intent-filter>
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+265                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+266            </intent-filter>
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+268                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+271                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+274                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+275            </intent-filter>
+276        </receiver>
+277    </application>
+278
+279</manifest>
