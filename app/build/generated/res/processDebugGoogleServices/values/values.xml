@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="firebase_database_url" translatable="false">https://workx-184a9-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">2299918998</string>
     <string name="google_api_key" translatable="false">AIzaSyCI12nSqOybXyDDpn-ES9EH2t8_4b71MSo</string>
     <string name="google_app_id" translatable="false">1:2299918998:android:95baea7ed53ab47b54a0b7</string>

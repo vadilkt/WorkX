@@ -38,6 +38,11 @@ android {
 }
 
 dependencies {
+    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    implementation("com.google.firebase:firebase-storage:20.3.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    implementation ("androidx.viewpager2:viewpager2:1.0.0")
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.core:core-ktx:1.12.0")

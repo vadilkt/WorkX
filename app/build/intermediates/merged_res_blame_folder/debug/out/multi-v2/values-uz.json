@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.workx.app-mergeDebugResources-38:/values-uz/values-uz.xml",
+            "outputFile": "com.example.workx.app-mergeDebugResources-39:/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\03a31470cb896817e0ed96b097db61c0\\transformed\\material-1.10.0\\res\\values-uz\\values-uz.xml",

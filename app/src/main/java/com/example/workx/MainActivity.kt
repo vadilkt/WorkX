@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 
         tvRedirectSignUp = findViewById(R.id.tvRedirectSignUp)
         btnLogin = findViewById(R.id.btnLogin)
@@ -61,7 +61,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
         }
     }
-
     override fun onStart() {
         super.onStart()
         if(FirebaseAuth.getInstance().currentUser!=null){

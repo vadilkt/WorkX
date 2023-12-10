@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.WorkX" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.WorkX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         
         <item name="colorPrimary">@color/violet</item>
