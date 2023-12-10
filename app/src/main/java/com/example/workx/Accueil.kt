@@ -87,6 +87,16 @@ class Accueil : AppCompatActivity() {
         fragmentTransaction.commit()
     }
 
+    override fun onBackPressed() {
+        val fragmentCount = supportFragmentManager.backStackEntryCount
+
+        if (fragmentCount > 1) {
+            supportFragmentManager.popBackStack()
+        } else {
+            super.onBackPressed()
+        }
+    }
+
 
 
 

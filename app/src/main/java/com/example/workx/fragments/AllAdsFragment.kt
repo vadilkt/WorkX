@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ProgressBar
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.workx.MainActivity
@@ -22,6 +24,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import kotlinx.coroutines.launch
 import java.util.Locale
 
 class AllAdsFragment : Fragment() {
@@ -31,12 +34,14 @@ class AllAdsFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: AdAdapter
     private lateinit var adsList: MutableList<Ad>
+    private lateinit var loadingBar: ProgressBar
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_all_ads, container, false)
 
+        loadingBar = view.findViewById(R.id.loadingBar)
         recyclerView = view.findViewById(R.id.recyclerView)
         mAuth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance()
@@ -51,13 +56,20 @@ class AllAdsFragment : Fragment() {
             adapter = AdAdapter(requireActivity())
             recyclerView.adapter = adapter
             recyclerView.layoutManager = LinearLayoutManager(requireContext())
-            fetchAdsFromFirebase()
+
+            lifecycleScope.launch {
+
+                fetchAdsFromFirebase()
+
+            }
+
         }
 
         return view
     }
 
     private fun fetchAdsFromFirebase() {
+        loadingBar.visibility=View.VISIBLE
         adRef.addListenerForSingleValueEvent(object : ValueEventListener {
 
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -88,8 +100,10 @@ class AllAdsFragment : Fragment() {
                     }
 
                 adsList.clear()
+
                 adsList.addAll(allAdsList)
                 adapter?.let{
+                    loadingBar.visibility = View.GONE
                     it.setAds(adsList)
                     Log.d("FirebaseData", "Nombre d'annonces récupérées: ${adsList.size}")
                 } }

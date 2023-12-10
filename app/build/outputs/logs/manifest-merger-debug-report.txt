@@ -1,44 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-50:12
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.firebaseui:firebase-ui-storage:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d9876af8f228838e9859e02319e49b4a\transformed\firebase-ui-storage-8.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5fc5b5e60c70b0e04199368081b96a0\transformed\firebase-ui-database-8.0.0\AndroidManifest.xml:2:1-11:12
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:17:1-66:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\cbacce66d0b9f91cf5c94858f8c1a07a\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:17:1-43:12
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:17:1-66:12
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
-MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\kweka\.gradle\caches\transforms-3\5f0df4d1f7a2f3e85e3eac9429cbe0a1\transformed\paging-rxjava3-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\8f185a80d02349c42b4ea4eaacbb14cd\transformed\play-services-measurement-sdk-21.5.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\1b49718c57d41eedd73bdf1691c8ef76\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\kweka\.gradle\caches\transforms-3\8896782ca0b276f8b0856a2ee3cc845a\transformed\recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\b6183f8701efc1faa0037abc64d96d96\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7e2a7201c775b3b5c506cba63bdfd373\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\0ef28a636e1ac8f56981896c5cfed581\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kweka\.gradle\caches\transforms-3\ee08ef8fc5268fa57e3d43eb27b58faf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kweka\.gradle\caches\transforms-3\5908995a4738d3f95b93c7702dc7aad3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kweka\.gradle\caches\transforms-3\a84703db6bc649aaf928d5e6eed02356\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6d572552af6b65efce422a8feb1c398f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\f07974310a70d86609648fa645e338d2\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kweka\.gradle\caches\transforms-3\7fa9f0c3447da9c44e08c2407809157d\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kweka\.gradle\caches\transforms-3\834acc69b0a0194704265c026acd793e\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\kweka\.gradle\caches\transforms-3\33108d17d8d704098623c71af289e5a4\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kweka\.gradle\caches\transforms-3\9227bb4ef365d6cab0930a0403ef33ea\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\3d6d707f71aa75e699da2da6e1b3ce48\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
@@ -48,14 +43,11 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:
 MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\0f9f9df80a42bec0b45ef18aa944c9dc\transformed\play-services-measurement-base-21.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\93a0e4912cbe1fdafa2749eee81a67c8\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\319ee45d153efb9440561b0f6b97c17c\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\5579ab6a47c3cdac677f98e20b1bdb58\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d4ea0d8b1c57881afa2cdfc8a405158c\transformed\firebase-ui-common-8.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7f3792a33093d90e2a84446c1d20d39e\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\993cbaa52d65c7dc9de8b3dff6b1e6d7\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\6fdb95123c6d7d97de9e74d48967776c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\9989964cecd8d01c2f8fe8fc887f06c4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\883122e63b24e4e177d06a45be0956c6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\42d09fb47d683dee1d461c26a0d66c13\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\531e07c5ebf8ec150f98cf2ba6ad0440\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\f3290fbc1f1764920c3fea448cf9fad6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -66,23 +58,16 @@ MERGED from [androidx.browser:browser:1.4.0] C:\Users\kweka\.gradle\caches\trans
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5b40844bdb9a656b6ed55eab09cf031\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\a78edef50809a8dde948fdecbb11fb65\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\071e7577cba2ecaad4401c1c0a90af14\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\de0abdd57d28e6abd0c82870083032aa\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e6097e290627c72043428535dff2ad3e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\7f41bacea1da96dc2e4f0c1fb33078f9\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6287a4d1ec7019ef036aa945f11e0bfb\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\477c048bc6e0cfed21a7d8c7d6ac9ba0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\4972580cc3f8fd133f9cd0857b5e441a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\0082d4d99f56fc7a62e407b5e6a714fa\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4b3f44dab4811958ce70c71b4a8b097c\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\0cbfc5dc7a2052a33c730d9a6874bf3b\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\dae29382ee810c899b64c7cca2c90f32\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\2ae71ac49cc4165db5a08839dd25908c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\24aa8b71f523c8e30946754c072c1a4e\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\1d8446d922bad2b61f1ffb426f1bef92\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\76ea7d5c4d8f973c0952eb06d02e4cce\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4bf03f4afc194ff9c0d402a0de7179c2\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:15:1-41:12
@@ -96,13 +81,14 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kweka\.gradle\caches\tra
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\kweka\.gradle\caches\transforms-3\064e3ff69e64d0e8a801749704fcb5b3\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\kweka\.gradle\caches\transforms-3\ed769ee5638243624a2dd6fc87ce31dc\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\697cef31e2ce0e3a7dcb3450e07015b7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\6db799f2ff55fcaedfe4011a12b65451\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\b5ba62b4c537bdfa9acfa9c532e68ce7\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\35cc4183d352a98c96bab7fb07b6e7b6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\71a913743f314d290d6d00c35d3a3e63\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kweka\.gradle\caches\transforms-3\70296a142dee878b381094e438b63ee0\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -119,14 +105,12 @@ ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManife
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5fc5b5e60c70b0e04199368081b96a0\transformed\firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
-MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5fc5b5e60c70b0e04199368081b96a0\transformed\firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
@@ -147,16 +131,16 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:24:5-79
@@ -176,29 +160,28 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\
 	android:name
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-48:19
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-48:19
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-48:19
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-52:19
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-52:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:28:5-64:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\cbacce66d0b9f91cf5c94858f8c1a07a\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\cbacce66d0b9f91cf5c94858f8c1a07a\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:29:5-41:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:29:5-41:19
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:28:5-64:19
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:28:5-64:19
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\8f185a80d02349c42b4ea4eaacbb14cd\transformed\play-services-measurement-sdk-21.5.0\AndroidManifest.xml:22:5-23:19
@@ -211,20 +194,20 @@ MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\kweka\.gradle\cach
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7e2a7201c775b3b5c506cba63bdfd373\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kweka\.gradle\caches\transforms-3\ee08ef8fc5268fa57e3d43eb27b58faf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kweka\.gradle\caches\transforms-3\ee08ef8fc5268fa57e3d43eb27b58faf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\f07974310a70d86609648fa645e338d2\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\f07974310a70d86609648fa645e338d2\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kweka\.gradle\caches\transforms-3\7fa9f0c3447da9c44e08c2407809157d\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kweka\.gradle\caches\transforms-3\7fa9f0c3447da9c44e08c2407809157d\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kweka\.gradle\caches\transforms-3\834acc69b0a0194704265c026acd793e\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kweka\.gradle\caches\transforms-3\834acc69b0a0194704265c026acd793e\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kweka\.gradle\caches\transforms-3\5d8845b61f48f9fa52d8c30415a8d5bf\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
@@ -241,6 +224,8 @@ MERGED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms
 MERGED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:27:5-35:19
@@ -265,8 +250,6 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\cach
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:12:9-54
-	android:testOnly
-		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
 	android:roundIcon
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:15:9-43
 	tools:targetApi
@@ -280,99 +263,93 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\cach
 	android:dataExtractionRules
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.workx.CreateAd
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:9-23:52
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:9-24:52
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:13-50
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:13-50
+	android:windowSoftInputMode
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-55
 	android:exported
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:21:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:13-57
 	android:name
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:20:13-37
 activity#com.example.workx.Ad_Detail
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:9-28:52
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:9-29:52
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:13-50
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:13-50
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:13-57
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:13-38
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-38
 activity#com.example.workx.Accueil
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:9-32:60
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:9-34:60
+	android:windowSoftInputMode
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-57
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-36
 activity#com.example.workx.Register
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:9-37:55
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:9-40:57
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-55
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:40:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:13-52
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-52
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-37
 activity#com.example.workx.MainActivity
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:9-47:20
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:9-51:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:44:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:13-36
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:13-52
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:13-52
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:13-46:29
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:17-69
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:25-66
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:17-77
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:27-74
-profileable
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml reason: profileable injection requested
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
-	android:enabled
-		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
-	android:shell
-		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:27-74
 uses-sdk
 INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [com.firebaseui:firebase-ui-storage:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d9876af8f228838e9859e02319e49b4a\transformed\firebase-ui-storage-8.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebaseui:firebase-ui-storage:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d9876af8f228838e9859e02319e49b4a\transformed\firebase-ui-storage-8.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5fc5b5e60c70b0e04199368081b96a0\transformed\firebase-ui-database-8.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e5fc5b5e60c70b0e04199368081b96a0\transformed\firebase-ui-database-8.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\cbacce66d0b9f91cf5c94858f8c1a07a\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\cbacce66d0b9f91cf5c94858f8c1a07a\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\kweka\.gradle\caches\transforms-3\5f0df4d1f7a2f3e85e3eac9429cbe0a1\transformed\paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\kweka\.gradle\caches\transforms-3\5f0df4d1f7a2f3e85e3eac9429cbe0a1\transformed\paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\kweka\.gradle\caches\transforms-3\03a31470cb896817e0ed96b097db61c0\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\8f185a80d02349c42b4ea4eaacbb14cd\transformed\play-services-measurement-sdk-21.5.0\AndroidManifest.xml:20:5-44
@@ -385,8 +362,6 @@ MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\k
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\kweka\.gradle\caches\transforms-3\b4a0264c53ad62992b7e6d54083a2a9c\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\kweka\.gradle\caches\transforms-3\8896782ca0b276f8b0856a2ee3cc845a\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\kweka\.gradle\caches\transforms-3\8896782ca0b276f8b0856a2ee3cc845a\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\b6183f8701efc1faa0037abc64d96d96\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\b6183f8701efc1faa0037abc64d96d96\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7e2a7201c775b3b5c506cba63bdfd373\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7e2a7201c775b3b5c506cba63bdfd373\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\0ef28a636e1ac8f56981896c5cfed581\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -397,8 +372,10 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kweka\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kweka\.gradle\caches\transforms-3\5908995a4738d3f95b93c7702dc7aad3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kweka\.gradle\caches\transforms-3\a84703db6bc649aaf928d5e6eed02356\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\kweka\.gradle\caches\transforms-3\a84703db6bc649aaf928d5e6eed02356\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6d572552af6b65efce422a8feb1c398f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6d572552af6b65efce422a8feb1c398f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\f07974310a70d86609648fa645e338d2\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\f07974310a70d86609648fa645e338d2\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
@@ -407,16 +384,12 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kweka\.
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\kweka\.gradle\caches\transforms-3\7fa9f0c3447da9c44e08c2407809157d\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kweka\.gradle\caches\transforms-3\834acc69b0a0194704265c026acd793e\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\kweka\.gradle\caches\transforms-3\834acc69b0a0194704265c026acd793e\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\kweka\.gradle\caches\transforms-3\33108d17d8d704098623c71af289e5a4\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\kweka\.gradle\caches\transforms-3\33108d17d8d704098623c71af289e5a4\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\885ca5f33cf58731016ce6551c697015\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\kweka\.gradle\caches\transforms-3\dd8b4d4474262e101b87a64403bec496\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\kweka\.gradle\caches\transforms-3\a14c7ab58b646b797854607adf62a098\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kweka\.gradle\caches\transforms-3\9227bb4ef365d6cab0930a0403ef33ea\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\kweka\.gradle\caches\transforms-3\9227bb4ef365d6cab0930a0403ef33ea\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\3aa4c3cb755ffc581c2170cec166b229\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
@@ -435,22 +408,16 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kwek
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kweka\.gradle\caches\transforms-3\63a7240e90f72978f26d46f04227b7c8\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\93a0e4912cbe1fdafa2749eee81a67c8\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\kweka\.gradle\caches\transforms-3\93a0e4912cbe1fdafa2749eee81a67c8\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\319ee45d153efb9440561b0f6b97c17c\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\319ee45d153efb9440561b0f6b97c17c\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\5579ab6a47c3cdac677f98e20b1bdb58\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\kweka\.gradle\caches\transforms-3\5579ab6a47c3cdac677f98e20b1bdb58\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d4ea0d8b1c57881afa2cdfc8a405158c\transformed\firebase-ui-common-8.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\kweka\.gradle\caches\transforms-3\d4ea0d8b1c57881afa2cdfc8a405158c\transformed\firebase-ui-common-8.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7f3792a33093d90e2a84446c1d20d39e\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\7f3792a33093d90e2a84446c1d20d39e\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\993cbaa52d65c7dc9de8b3dff6b1e6d7\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\993cbaa52d65c7dc9de8b3dff6b1e6d7\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\6fdb95123c6d7d97de9e74d48967776c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\6fdb95123c6d7d97de9e74d48967776c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\9989964cecd8d01c2f8fe8fc887f06c4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\9989964cecd8d01c2f8fe8fc887f06c4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\kweka\.gradle\caches\transforms-3\557ecaa66cf0931011818583c6dbc42b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\883122e63b24e4e177d06a45be0956c6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\883122e63b24e4e177d06a45be0956c6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\42d09fb47d683dee1d461c26a0d66c13\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\42d09fb47d683dee1d461c26a0d66c13\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\531e07c5ebf8ec150f98cf2ba6ad0440\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -471,30 +438,14 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kweka\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\a78edef50809a8dde948fdecbb11fb65\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\071e7577cba2ecaad4401c1c0a90af14\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\071e7577cba2ecaad4401c1c0a90af14\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\de0abdd57d28e6abd0c82870083032aa\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\de0abdd57d28e6abd0c82870083032aa\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e6097e290627c72043428535dff2ad3e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e6097e290627c72043428535dff2ad3e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\7f41bacea1da96dc2e4f0c1fb33078f9\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\kweka\.gradle\caches\transforms-3\7f41bacea1da96dc2e4f0c1fb33078f9\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6287a4d1ec7019ef036aa945f11e0bfb\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\6287a4d1ec7019ef036aa945f11e0bfb\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\477c048bc6e0cfed21a7d8c7d6ac9ba0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\477c048bc6e0cfed21a7d8c7d6ac9ba0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\4972580cc3f8fd133f9cd0857b5e441a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\4972580cc3f8fd133f9cd0857b5e441a\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\0082d4d99f56fc7a62e407b5e6a714fa\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kweka\.gradle\caches\transforms-3\0082d4d99f56fc7a62e407b5e6a714fa\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4b3f44dab4811958ce70c71b4a8b097c\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4b3f44dab4811958ce70c71b4a8b097c\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\0cbfc5dc7a2052a33c730d9a6874bf3b\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\0cbfc5dc7a2052a33c730d9a6874bf3b\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\dae29382ee810c899b64c7cca2c90f32\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\dae29382ee810c899b64c7cca2c90f32\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\2ae71ac49cc4165db5a08839dd25908c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\2ae71ac49cc4165db5a08839dd25908c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\24aa8b71f523c8e30946754c072c1a4e\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
@@ -505,6 +456,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\kweka\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\76ea7d5c4d8f973c0952eb06d02e4cce\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4bf03f4afc194ff9c0d402a0de7179c2\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\4bf03f4afc194ff9c0d402a0de7179c2\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:18:5-20:41
@@ -531,88 +484,42 @@ MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\kweka\.gra
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\kweka\.gradle\caches\transforms-3\ed769ee5638243624a2dd6fc87ce31dc\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\697cef31e2ce0e3a7dcb3450e07015b7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\697cef31e2ce0e3a7dcb3450e07015b7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kweka\.gradle\caches\transforms-3\8c2073558f7b7536f9912c124cfb4810\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\2212bd4fd1a5fabd4e2fc407b888bc00\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\6db799f2ff55fcaedfe4011a12b65451\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\caches\transforms-3\6db799f2ff55fcaedfe4011a12b65451\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\b5ba62b4c537bdfa9acfa9c532e68ce7\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\b5ba62b4c537bdfa9acfa9c532e68ce7\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\35cc4183d352a98c96bab7fb07b6e7b6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\35cc4183d352a98c96bab7fb07b6e7b6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\71a913743f314d290d6d00c35d3a3e63\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\kweka\.gradle\caches\transforms-3\71a913743f314d290d6d00c35d3a3e63\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kweka\.gradle\caches\transforms-3\bc44ac4e0f1e56d98537c6221b58fa42\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kweka\.gradle\caches\transforms-3\70296a142dee878b381094e438b63ee0\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kweka\.gradle\caches\transforms-3\70296a142dee878b381094e438b63ee0\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
 		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
 MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:54:9-63:19
 MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:54:9-63:19
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
 MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:22:9-31:19
 MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
@@ -620,31 +527,13 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:24:9-30:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:29:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\f3945ccd684cbc026de8731b9f256f9b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
-meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
-	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
-meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:28:13-84
 meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
 	android:value
@@ -657,58 +546,24 @@ ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\
 		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
-uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e1899361af65d052215edf4149f70058\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e1899361af65d052215edf4149f70058\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
-uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
-uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
-property
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
-	android:resource
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
-meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
-	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
 uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:5-77
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\12c9c09c6ab665ac7f1e6bdf7575b98c\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\kweka\.gradle\caches\transforms-3\db59a6ca229b6a6fc52dba0d883d5aac\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
@@ -763,18 +618,72 @@ ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradl
 		ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
-ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
-ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\870015d0b67cc94c31a2d50b21c885b0\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
 meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
 ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
 	android:value
@@ -787,6 +696,52 @@ ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle
 		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\kweka\.gradle\caches\transforms-3\84a95fc86ed157e989f122ec52a0f465\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4a86311492b5478453226cc5120c1a6b\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e1899361af65d052215edf4149f70058\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\kweka\.gradle\caches\transforms-3\e1899361af65d052215edf4149f70058\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\4d39780d9d4d011c3f90447e549c45f5\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\kweka\.gradle\caches\transforms-3\d2ec3ab376086c810bfe4aa3436fe314\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\kweka\.gradle\caches\transforms-3\fb1bce7ea066723f30f2b34fcfbb67f6\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kweka\.gradle\caches\transforms-3\c8b744c1492171c3a476a2749fc3eea1\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
 	android:value
@@ -911,6 +866,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kweka\.gradle\caches\transforms-3\90fdcf55f1e2bdd58b4aa00bf5ab4e71\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kweka\.gradle\caches\transforms-3\c312653cccf4a27740aaf7686c99def8\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\kweka\.gradle\caches\transforms-3\60965b3b234e676f5dcb650d77a18e93\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
 	android:value

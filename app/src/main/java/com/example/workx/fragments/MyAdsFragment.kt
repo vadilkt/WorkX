@@ -11,6 +11,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -34,14 +35,14 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
     private lateinit var adapter: MyAdsAdapter
     private lateinit var adsList: MutableList<Ad>
     private lateinit var adDeleteBtn : Button
-
+    private lateinit var loadingBar: ProgressBar
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_my_ads, container, false)
 
-
+        loadingBar = view.findViewById(R.id.loadingBar)
         recyclerView = view.findViewById(R.id.recyclerView)
         mAuth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance()
@@ -67,6 +68,7 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
     }
 
     private fun fetchCurrentUserAdsFromFirebase() {
+        loadingBar.visibility = View.VISIBLE
         adRef.addListenerForSingleValueEvent(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 val allAdsList = mutableListOf<Ad>()
@@ -102,6 +104,7 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
                 adsList.clear()
                 adsList.addAll(allAdsList)
                 adapter?.let {
+                    loadingBar.visibility = View.GONE
                     it.notifyDataSetChanged()
                     Log.d("FirebaseData", "Nombre d'annonces récupérées: ${adsList.size}")
                 }
@@ -137,7 +140,6 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
             if (adsRef != null) {
             adsRef.removeValue().addOnCompleteListener{task->
                 if (task.isSuccessful){
-                    adapter.notifyDataSetChanged()
                     Toast.makeText(context, "Annonce supprimée avec succès", Toast.LENGTH_SHORT).show()
                 }else{
                     Toast.makeText(context, "Erreur lors de la suppression de l'annonce", Toast.LENGTH_SHORT).show()

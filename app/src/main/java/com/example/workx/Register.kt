@@ -14,6 +14,7 @@ import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
+import android.window.OnBackInvokedDispatcher
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
@@ -221,5 +222,7 @@ class Register : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
 
 }

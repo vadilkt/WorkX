@@ -13,8 +13,10 @@ dimen textInput
 dimen text_input_layout_margin
 dimen text_view_margin_bottom
 drawable add_
+drawable add_image
 drawable add_img
 drawable baseline_logout_24
+drawable bg_grey
 drawable bg_login
 drawable home
 drawable ic_launcher_background
@@ -29,6 +31,7 @@ drawable profile
 drawable roundedbutton
 drawable search
 drawable signup
+drawable undraw_mobile_login_re_9ntv
 drawable violetactionbg
 drawable whitebg
 id adDetails
@@ -59,13 +62,14 @@ id etPassword
 id etPhoneNumber
 id fabAddBtn
 id frameLayout
+id idSV
 id imageView
+id loadingBar
 id location_icon
-id menu_add
 id menu_home
 id menu_logout
 id menu_profile
-id menu_search
+id name
 id petit1
 id recyclerView
 id signUp_Progress
@@ -76,7 +80,7 @@ id tvRedirectSignUp
 layout activity_accueil
 layout activity_ad_detail
 layout activity_create_add
-layout activity_main
+layout activity_login
 layout activity_register
 layout ad_item
 layout fragment_all_ads
@@ -113,6 +117,7 @@ string login
 string mot_de_passe
 string mot_de_passeR
 string nom
+string nom_de_l_annonce
 string num_ro_de_t_l_phone
 string pas_de_compte_je_m_inscris
 string position

@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide
 import com.example.workx.Ad_Detail
 import com.example.workx.R
 import com.example.workx.model.Ad
+import com.squareup.picasso.Picasso
 
 class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
     val context: Context = itemView.context
@@ -27,7 +28,7 @@ class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
         val imageUrl =  ad.imageAd?.firstOrNull()
 
         if(!imageUrl.isNullOrEmpty()){
-            Glide.with(itemView.context)
+            Picasso.get()
                 .load(imageUrl)
                 .into(imageView)
         }else{
