@@ -5,14 +5,17 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ProgressBar
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.VIEW_MODEL_STORE_OWNER_KEY
 import com.example.workx.model.Ad
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
@@ -34,6 +37,7 @@ class CreateAd : AppCompatActivity() {
     private lateinit var adDetail: EditText
     private val images: MutableList<Uri> = mutableListOf()
     private lateinit var galleryLauncher: ActivityResultLauncher<Intent>
+    private lateinit var progressBar: ProgressBar
     private val storageRef = FirebaseStorage.getInstance().reference.child("images")
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,6 +54,7 @@ class CreateAd : AppCompatActivity() {
         database = FirebaseDatabase.getInstance()
         btnSelectedImage = findViewById(R.id.btnSelectImage)
         btnCreateAd = findViewById(R.id.btnCreateAd)
+        progressBar = findViewById(R.id.progressBar)
 
         val categories = resources.getStringArray(R.array.categories)
         val categoryAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, categories)
@@ -102,6 +107,7 @@ class CreateAd : AppCompatActivity() {
 
     private fun uploadImagesToStorage(images: List<Uri>) {
         val imagesUrls = mutableListOf<String>()
+        progressBar.visibility = View.VISIBLE
 
         for ((index, imageUri) in images.withIndex()) {
             val imageRef = storageRef.child("image_${UUID.randomUUID()}.jpg")
@@ -119,6 +125,7 @@ class CreateAd : AppCompatActivity() {
 
                                 if (imagesUrls.size == images.size) {
                                     createAd(imagesUrls)
+                                    progressBar.visibility = View.GONE
                                 }
                             }
                         }
@@ -145,6 +152,7 @@ class CreateAd : AppCompatActivity() {
         val selectedCategory = adCategory.selectedItem.toString()
         val adDetail = adDetail.text.toString().trim()
         val adLocation = adLocation.text.toString().trim()
+
 
         if (adName.isBlank() || adPrice.isBlank() || adPhoneNumber.isBlank() || adLocation.isBlank()) {
             Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()

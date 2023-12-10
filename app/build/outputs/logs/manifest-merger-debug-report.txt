@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:17:1-66:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\kweka\.gradle\caches\transforms-3\9baefd063c1df3f14c6fc823a7200dcd\transformed\firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
@@ -129,8 +129,14 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\ecc5ca243148e71b8241de8f6e46a322\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:5-8:71
+	tools:ignore
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:8:9-68
+	android:name
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:22-66
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:22:5-79
@@ -158,10 +164,10 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\kweka\.gradle\caches\transforms-3\69620725c1d247ddd4547d9f3e1fe8aa\transformed\transport-runtime-3.1.8\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-52:19
-INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:9:5-52:19
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:5-54:19
+INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:5-54:19
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kweka\.gradle\caches\transforms-3\88697afd74b6cc1a45bbcdb176267886\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
 MERGED from [com.google.firebase:firebase-messaging:23.3.1] C:\Users\kweka\.gradle\caches\transforms-3\e60c542f4c071ed7754c4c9db6cbae24\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:28:5-64:19
@@ -245,87 +251,87 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kweka\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\kweka\.gradle\caches\transforms-3\dd668c6577204940c1085cece58a2198\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:17:9-43
 	tools:targetApi
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:13:9-38
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:15:9-38
 	android:allowBackup
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:17:9-53
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:9-53
 	android:dataExtractionRules
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.example.workx.CreateAd
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:19:9-24:52
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:21:9-26:52
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:13-50
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-50
 	android:windowSoftInputMode
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:24:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:23:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:13-57
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:20:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:22:13-37
 activity#com.example.workx.Ad_Detail
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:25:9-29:52
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:9-31:52
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:13-50
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-50
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:29:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:13-57
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:26:13-38
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:28:13-38
 activity#com.example.workx.Accueil
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:30:9-34:60
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:9-36:60
 	android:windowSoftInputMode
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:13-55
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:34:13-57
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-57
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:33:13-36
 activity#com.example.workx.Register
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:35:9-40:57
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:9-42:57
 	android:parentActivityName
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:13-55
-	android:windowSoftInputMode
 		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:40:13-55
-	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:37:13-37
-	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-52
-	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:36:13-37
-activity#com.example.workx.MainActivity
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:9-51:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:44:13-55
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:13-55
 	android:exported
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:39:13-37
 	android:theme
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:13-52
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:41:13-52
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:42:13-41
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:38:13-37
+activity#com.example.workx.MainActivity
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:43:9-53:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:46:13-55
+	android:exported
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:47:13-52
+	android:name
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:44:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:46:13-50:29
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:47:17-69
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:47:25-66
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:17-77
+ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:49:27-74
+		ADDED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml:51:27-74
 uses-sdk
 INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kweka\AndroidStudioProjects\workX\app\src\main\AndroidManifest.xml

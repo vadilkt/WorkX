@@ -12,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ProgressBar
+import android.widget.SearchView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -36,12 +37,14 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
     private lateinit var adsList: MutableList<Ad>
     private lateinit var adDeleteBtn : Button
     private lateinit var loadingBar: ProgressBar
+    private lateinit var searchView: SearchView
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_my_ads, container, false)
 
+        searchView = view.findViewById(R.id.idSV)
         loadingBar = view.findViewById(R.id.loadingBar)
         recyclerView = view.findViewById(R.id.recyclerView)
         mAuth = FirebaseAuth.getInstance()
@@ -59,6 +62,34 @@ class MyAdsFragment : Fragment(), MyAdsAdapter.OnItemClickListener {
             recyclerView.layoutManager = LinearLayoutManager(requireContext())
             fetchCurrentUserAdsFromFirebase()
         }
+
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                val filteredAds = adsList.filter {
+                    it.nameAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.detailAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.categoryAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.locationAd?.contains(query.orEmpty(), ignoreCase = true) == true
+                }
+                if (filteredAds.isNotEmpty()) {
+                    adapter.setAds(filteredAds)
+                } else {
+                    Toast.makeText(requireActivity(), "Aucune annonce trouvée !", Toast.LENGTH_SHORT).show()
+                }
+                return false
+            }
+
+            override fun onQueryTextChange(query: String?): Boolean {
+                val filteredAds = adsList.filter {
+                    it.nameAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.detailAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.categoryAd?.contains(query.orEmpty(), ignoreCase = true) == true ||
+                            it.locationAd?.contains(query.orEmpty(), ignoreCase = true) == true
+                }
+                adapter.setAds(filteredAds)
+                return false
+            }
+        })
 
         return view
     }

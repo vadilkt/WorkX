@@ -71,6 +71,7 @@ id menu_logout
 id menu_profile
 id name
 id petit1
+id progressBar
 id recyclerView
 id signUp_Progress
 id spinnerCategory

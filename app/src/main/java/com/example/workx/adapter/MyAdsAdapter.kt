@@ -8,11 +8,19 @@ import com.example.workx.holder.AdViewHolder
 import com.example.workx.model.Ad
 
 class MyAdsAdapter(
-    private val ads: List<Ad>,
+    private val ads: MutableList<Ad>,
     private val listener: MyAdsFragment,
     private val currentUserUid: String
 ) :
     RecyclerView.Adapter<AdViewHolder>() {
+
+    fun setAds(newAds: List<Ad>?){
+        ads.clear()
+        newAds?.let {
+            ads.addAll(it)
+        }
+        notifyDataSetChanged()
+    }
 
     interface OnItemClickListener {
         fun onDeleteClick(position: Int)

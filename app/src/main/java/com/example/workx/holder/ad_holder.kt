@@ -1,12 +1,18 @@
 package com.example.workx.holder
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.workx.Ad_Detail
@@ -44,15 +50,30 @@ class AdViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
 
         }
         adBtn.setOnClickListener {
-            val intent = Intent(context, Ad_Detail::class.java)
-            intent.putExtra("adId", ad.nameAd)
-
-            context.startActivity(intent)
-            Log.d("AdViewHolder", "Ad Name: ${ad.nameAd}")
-            Log.d("AdViewHolder", "Ad Price: ${ad.priceAd}")
-            Log.d("AdViewHolder", "Ad Location: ${ad.locationAd}")
-            Log.d("AdViewHolder", "Ad Detail: ${ad.detailAd}")
+            val phoneNumber = ad.telAd
+            if(!phoneNumber.isNullOrEmpty()){
+                Log.d("AdViewHolder", "Phone number: $phoneNumber")
+                if(ContextCompat.checkSelfPermission(context, android.Manifest.permission.CALL_PHONE)== PackageManager.PERMISSION_GRANTED){
+                    Log.d("AdViewHolder", "Permission granted. Starting call intent.")
+                    context.startActivity(createCallIntent(phoneNumber))
+                }else{
+                    Log.d("AdViewHolder", "Requesting CALL_PHONE permission.")
+                    ActivityCompat.requestPermissions(context as Activity, arrayOf(android.Manifest.permission.CALL_PHONE), REQUEST_CALL_PHONE_PERMISSION)
+                }
+            }else {
+            Log.e("AdViewHolder", "Phone number is null or empty.")
         }
+        }
+    }
+
+    private fun createCallIntent(phoneNumber: String): Intent {
+        val callIntent = Intent(Intent.ACTION_DIAL)
+        callIntent.data = Uri.parse("tel:$phoneNumber")
+        return callIntent
+    }
+
+    companion object{
+        const val REQUEST_CALL_PHONE_PERMISSION = 1
     }
 
 }
