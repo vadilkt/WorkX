@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\3aa4c3cb755ffc581c2170cec166b229\\transformed\\play-services-base-18.1.0\\res\\values-mk\\values.xml",
+                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\9e56fbfae37f5719b978f5b4412e973e\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "132",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "5510",
+                        "endColumns": "136",
+                        "endOffsets": "5642"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\bbec7b1cb07eb31d80c3b5d29f7633a6\\transformed\\jetified-play-services-base-18.1.0\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -71,23 +88,6 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,67,68,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129",
                         "endColumns": "12,80,79,81,96,88,95,123,86,65,90,69,63,102,62,64,59,67,62,54,127,56,61,54,74,139,86,82,132,81,84,145,86,76,53,54,65,72,75,88,77,72,75,74,69,108,87,74,91,91,73,73,91,52,81,66,82,86,61,63,62,69,113,114,101,111,57,58,84",
                         "endOffsets": "316,3112,3192,3274,3371,3460,4275,4399,4486,6908,6999,7390,7454,7557,7620,7685,7745,7813,7876,7931,8059,8116,8178,8233,8308,8448,8535,8618,8751,8833,8918,9064,9151,9228,9282,9337,9403,9476,9552,9641,9719,9792,9868,9943,10013,10122,10210,10285,10377,10469,10543,10617,10709,10762,10844,10911,10994,11081,11143,11207,11270,11340,11454,11569,11671,11783,11841,11900,11985"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\63a7240e90f72978f26d46f04227b7c8\\transformed\\play-services-basement-18.1.0\\res\\values-mk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "132",
-                        "endOffsets": "327"
-                    },
-                    "to": {
-                        "startLines": "56",
-                        "startColumns": "4",
-                        "startOffsets": "5510",
-                        "endColumns": "136",
-                        "endOffsets": "5642"
                     }
                 },
                 {
