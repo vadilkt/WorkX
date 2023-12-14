@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\63a7240e90f72978f26d46f04227b7c8\\transformed\\play-services-basement-18.1.0\\res\\values-my\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "149",
-                        "endOffsets": "344"
-                    },
-                    "to": {
-                        "startLines": "56",
-                        "startColumns": "4",
-                        "startOffsets": "5637",
-                        "endColumns": "153",
-                        "endOffsets": "5786"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\3aa4c3cb755ffc581c2170cec166b229\\transformed\\play-services-base-18.1.0\\res\\values-my\\values.xml",
+                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\bbec7b1cb07eb31d80c3b5d29f7633a6\\transformed\\jetified-play-services-base-18.1.0\\res\\values-my\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "4609,4716,4880,5014,5125,5272,5404,5527,5791,5967,6073,6243,6386,6544,6731,6801,6874",
                         "endColumns": "106,163,133,110,146,131,122,109,175,105,169,142,157,186,69,72,88",
                         "endOffsets": "4711,4875,5009,5120,5267,5399,5522,5632,5962,6068,6238,6381,6539,6726,6796,6869,6958"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kweka\\.gradle\\caches\\transforms-3\\9e56fbfae37f5719b978f5b4412e973e\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-my\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "149",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "5637",
+                        "endColumns": "153",
+                        "endOffsets": "5786"
                     }
                 },
                 {

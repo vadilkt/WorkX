@@ -107,6 +107,7 @@ class CreateAd : AppCompatActivity() {
 
     private fun uploadImagesToStorage(images: List<Uri>) {
         val imagesUrls = mutableListOf<String>()
+        progressBar.visibility = View.VISIBLE
 
         for ((index, imageUri) in images.withIndex()) {
             val imageRef = storageRef.child("image_${UUID.randomUUID()}.jpg")
@@ -124,6 +125,7 @@ class CreateAd : AppCompatActivity() {
 
                                 if (imagesUrls.size == images.size) {
                                     createAd(imagesUrls)
+                                    progressBar.visibility = View.GONE
                                 }
                             }
                         }
@@ -151,7 +153,7 @@ class CreateAd : AppCompatActivity() {
         val adDetail = adDetail.text.toString().trim()
         val adLocation = adLocation.text.toString().trim()
 
-        progressBar.visibility = View.VISIBLE
+
 
         if (adName.isBlank() || adPrice.isBlank() || adPhoneNumber.isBlank() || adLocation.isBlank()) {
             Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
@@ -176,7 +178,7 @@ class CreateAd : AppCompatActivity() {
             )
 
             adRef.setValue(ad)
-            progressBar.visibility = View.GONE
+
             Toast.makeText(
                 this,
                 "Votre annonce a été enregistrée avec succès !",
