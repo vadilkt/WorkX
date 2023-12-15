@@ -10,6 +10,7 @@
         <item>Finance</item>
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="transparent">#00FFFFFF</color>
     <color name="violet">#6c19ca</color>
     <color name="violetA">#AA6c19ca</color>
     <color name="white">#FFFFFFFF</color>

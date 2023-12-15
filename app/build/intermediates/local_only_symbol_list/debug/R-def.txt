@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 array categories
 color black
+color transparent
 color violet
 color violetA
 color white

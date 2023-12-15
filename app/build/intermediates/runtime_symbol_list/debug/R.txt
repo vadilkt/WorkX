@@ -2085,6 +2085,7 @@ int color switch_thumb_normal_material_dark 0x7f0602f3
 int color switch_thumb_normal_material_light 0x7f0602f4
 int color tooltip_background_dark 0x7f0602f5
 int color tooltip_background_light 0x7f0602f6
+int color transparent 0x7f0602fb
 int color violet 0x7f0602f7
 int color violetA 0x7f0602f8
 int color white 0x7f0602f9

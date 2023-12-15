@@ -11,13 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d8aeea34-5601-4700-91ef-f52dcfb236de" name="Changes" comment="Auth ok + Add Ad Ok, display Ad ok search ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/whitebg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/whitebg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\kweka\.android\avd\Pixel_6_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[0A201FDD4006HE]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -107,9 +109,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;C:/Users/kweka/Documents/phone&quot;,
     &quot;android-custom-viewC:/Users/kweka/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/androidx/cardview/widget/CardView.java_SELECTED&quot;: &quot;CardView&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kweka/Documents&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kweka/Documents/phone&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,

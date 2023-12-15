@@ -5,5 +5,6 @@
     <color name="yellow">#ffc727</color>
     <color name="violet">#6c19ca</color>
     <color name="violetA">#AA6c19ca</color>
+    <color name="transparent">#00FFFFFF</color>
 
 </resources>
